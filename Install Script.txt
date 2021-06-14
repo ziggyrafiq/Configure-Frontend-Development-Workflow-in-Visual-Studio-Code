@@ -1,0 +1,1 @@
+npm install --save-dev gulp gulp-sourcemaps  gulp-sass  gulp-typescript  gulp-typescript gulp-concat gulp-uglify  gulp-postcss  autoprefixer cssnano gulp-imagemin gulp-html  gulp-replace  gulp-cssmin  gulp-jsmin  gulp-rename

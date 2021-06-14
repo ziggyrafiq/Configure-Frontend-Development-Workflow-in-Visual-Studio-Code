@@ -1,0 +1,164 @@
+﻿/* ==============================
+   NAVIGATION STYLES
+   ============================== */ 
+
+/*Navigation */
+@media (min-width: 992px) {
+    .animate {
+        animation-duration: 0.3s;
+        -webkit-animation-duration: 0.3s;
+        animation-fill-mode: both;
+        -webkit-animation-fill-mode: both;
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0rem);
+        opacity: 1;
+    }
+
+    0% {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes slideIn {
+    0% {
+        -webkit-transform: transform;
+        -webkit-opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        -webkit-opacity: 1;
+    }
+
+    0% {
+        -webkit-transform: translateY(1rem);
+        -webkit-opacity: 0;
+    }
+}
+
+.slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+}
+
+nav {
+    z-index: 2;
+    width: 100%;
+    background-color: #E9A941 !important;
+    margin: 0;
+    padding: 0;
+}
+
+
+ 
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    float: right;
+    /*			  border: 5px solid red;*/
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: $main-color;
+    font-family: $brand-navigation-font;
+    font-size: $brand-navigation-size;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    background-color: $brand-navigation-bg-colour;
+    color: $white-colour;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+/*OVERWRITE BOOTSTRAP 4 STYLES*/
+
+.btn-primary {
+    color: #fff;
+    background-color: #2b0000;
+    border-color: #2b0000;
+}
+
+.btn-primary:visited {
+    color: #fff;
+    background-color: #2b0000;
+    border-color: #2b0000;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    color: #fff;
+    background-color: #2b0000;
+    border-color: #2b0000;
+    box-shadow: 0 0 0 0.2rem rgba(38,143,255,.5);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #A0390E;
+    border-color: #A0390E;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #A0390E;
+    border-color: #A0390E;
+}
+
+.img-thumbnail {
+    padding: .25rem;
+    background-color: #3AA1A2;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.snavbar-as {
+    display: block;
+    background-color: none;
+  
+    position: absolute;
+    font-family: "Verdana";
+    font-size: 22px;
+    font-weight: bold;
+   
+    z-index: 1;
+    width: 50%;
+}
+
+.navbar-trans {
+    background: transparent !important;
+ 
+}

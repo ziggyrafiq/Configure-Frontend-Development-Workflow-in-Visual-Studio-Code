@@ -1,0 +1,38 @@
+﻿main {
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+section {
+    display: block;
+    width: 100%;
+    float: left;
+ 
+}
+
+article {
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+footer {
+    display: block;
+    width: 100%;
+    float: left;
+ 
+}
+
+
+#copyright-bar {
+    display: block;
+    float: left;
+    width: 100%;
+    height: 60px;
+    background-image: url("../Content/Images/copyright_bar_bg.png");
+    background-repeat: repeat-x;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 15px;
+}

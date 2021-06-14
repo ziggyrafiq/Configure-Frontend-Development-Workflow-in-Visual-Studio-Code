@@ -1,0 +1,120 @@
+﻿//Importan All the Fonts
+@import url('https://fonts.googleapis.com/css?family=Anton|Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:700|Open+Sans:600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+
+
+h1 {
+    color: $brand-text-colour;
+    font-family: $headers-font;
+    font-weight: bold;
+    font-size: $heading-one-size;
+}
+
+h2 {
+    color: $brand-text-colour;
+    font-family: $headers-font;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+h3 {
+    color: $brand-text-colour;
+    font-family: $headers-font;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+
+p {
+    color: $main-color;
+    font-family: $standard-font;
+    font-size: $standard-size;
+}
+
+
+/*CSS SUB CLASSES STYLES*/
+.p-white {
+    color: $white-colour;
+    font-family: $standard-font;
+    font-size: $standard-size;
+}
+
+.p-white-verdana {
+    color: $white-colour;
+    font-family: $standard-font;
+    font-size: $standard-size;
+}
+
+.p-white-verdana-bold {
+    color: $white-colour;
+    font-family: $standard-font;
+    font-size: $standard-size;
+    font-weight: bold;
+}
+
+.h2-black {
+    color: $main-color;
+    font-family: $headers-font;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.h2-white {
+    color: $white-colour;
+    font-family: $headers-font;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.h2-green {
+    color: $green-colour;
+    font-family: $headers-font;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.h2-red {
+    color: $red-colour;
+    font-family: $headers-font;
+    font-weight: bold;
+    font-size: 14px;
+}
+/*CSS LINKS SELECTORS*/
+a.copyright-bar:link {
+    color: $white-colour;
+}
+
+a.copyright-bar:active {
+    color: $white-colour;
+}
+
+a.copyright-bar:hover {
+    color: $yellow-colour;
+}
+
+a.copyright-bar:visited {
+    color: $white-colour;
+}
+
+
+a.black-link:link {
+    color: $main-color;
+}
+
+a.black-link:active {
+    color: $main-color;
+}
+
+a.black-link:hover {
+    color: $yellow-colour;
+}
+
+a.black-link:visited {
+    color: $main-color;
+}

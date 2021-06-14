@@ -1,0 +1,48 @@
+﻿
+header {
+    display: block;
+    width: 100%;
+    float: left;
+}
+/*DIV TAGS STYLES*/
+#top-bar {
+    display: block;
+    float: left;
+    width: 100%;
+    height: 46px;
+    background-image: url(" ../Content/Images/top_bar_bg.png");
+    background-repeat: repeat-x;
+    background-color: #590302;
+    color: #ffffff;
+    padding: 15px;
+}
+
+#logo-nav {
+ 
+}
+
+#logo {
+    display: block;
+    float: left;
+    width: 100%;
+    background: transparent !important;
+    z-index: 1;
+    position: absolute;
+}
+
+#header-slider {
+    display: block;
+    float: left;
+    width: 100%;
+ 
+    top: 0px;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+    position: relative;
+    
+    z-index: 0;
+    
+}

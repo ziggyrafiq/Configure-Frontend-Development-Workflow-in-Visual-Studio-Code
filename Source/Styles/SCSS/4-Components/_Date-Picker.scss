@@ -1,0 +1,14 @@
+﻿/*Bootstrap Date Picker Styling*/
+.datepicker {
+    /* Appended to body, abs-pos off the page */
+    position: absolute;
+    display: none;
+    top: -9999em;
+    left: -9999em;
+    width: 300px;
+}
+
+.table-condensed {
+    width: 100%;
+    
+}
